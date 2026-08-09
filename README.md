@@ -2,6 +2,8 @@
 
 This architecture is a web application that decouples a static S3 hmtl frontend from a scalable serverless backend. Utilized AWS Lambda and API Gateway to handle dynamic processing, optimizing infrastructure costs. Enhanced security posture by implementing credential management best practices including protecting sensitive API keys with Lambda Environment Variables.
 
+**Live Application:** https://weather.mavencrest.site
+
 ## Architecture
 * **Frontend**: Static assets (HTML/CSS/JS) served via S3 for high-performance delivery.
 * **Backend**: AWS Lambda functions triggered by Amazon API Gateway to handle dynamic requests and manage sensitive API keys.
